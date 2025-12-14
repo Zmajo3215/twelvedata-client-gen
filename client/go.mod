@@ -1,4 +1,4 @@
-module github.com/Zmajo3215/twelvedata-client-gen
+module github.com/Zmajo3215/twelvedata-client-gen/client
 
 go 1.23
 

@@ -26,7 +26,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
+	openapiclient  "github.com/Zmajo3215/twelvedata-client-gen/client"
 )
 
 func main() {
@@ -132,7 +132,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
+	openapiclient  "github.com/Zmajo3215/twelvedata-client-gen/client"
 )
 
 func main() {
