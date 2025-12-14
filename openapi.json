@@ -50047,7 +50047,6 @@
         },
         "summary": "Time series",
         "tags": [
-          "market_data",
           "time_series"
         ],
         "x-api-credits-cost": "1",
@@ -50312,7 +50311,6 @@
         },
         "summary": "Time series cross",
         "tags": [
-          "market_data",
           "time_series"
         ],
         "x-api-credits-cost": "5",
