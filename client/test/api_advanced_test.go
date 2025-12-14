@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AdvancedAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AdvancedAPIService(t *testing.T) {
 
 	t.Run("Test AdvancedAPIService Advanced", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdvancedAPI.Advanced(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AdvancedAPIService(t *testing.T) {
 
 	t.Run("Test AdvancedAPIService GetApiUsage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdvancedAPI.GetApiUsage(context.Background()).Execute()
 

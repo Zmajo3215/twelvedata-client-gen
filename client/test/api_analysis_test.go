@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AnalysisAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetAnalystRatingsLight", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetAnalystRatingsLight(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetAnalystRatingsUsEquities", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetAnalystRatingsUsEquities(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetEarningsEstimate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetEarningsEstimate(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetEdgarFilingsArchive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetEdgarFilingsArchive(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetEpsRevisions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetEpsRevisions(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetEpsTrend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetEpsTrend(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetGrowthEstimates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetGrowthEstimates(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetPriceTarget", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetPriceTarget(context.Background()).Execute()
 
@@ -120,7 +120,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetRecommendations", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetRecommendations(context.Background()).Execute()
 
@@ -132,7 +132,7 @@ func Test_openapi_AnalysisAPIService(t *testing.T) {
 
 	t.Run("Test AnalysisAPIService GetRevenueEstimate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AnalysisAPI.GetRevenueEstimate(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ReferenceDataAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetBonds", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetBonds(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetCommodities", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetCommodities(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetCountries", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetCountries(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetCrossListings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetCrossListings(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetCryptocurrencies", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetCryptocurrencies(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetCryptocurrencyExchanges", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetCryptocurrencyExchanges(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetETFsFamily", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetETFsFamily(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetETFsList", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetETFsList(context.Background()).Execute()
 
@@ -120,7 +120,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetETFsType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetETFsType(context.Background()).Execute()
 
@@ -132,7 +132,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetEarliestTimestamp", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetEarliestTimestamp(context.Background()).Execute()
 
@@ -144,7 +144,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetEtf", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetEtf(context.Background()).Execute()
 
@@ -156,7 +156,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetExchangeSchedule", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetExchangeSchedule(context.Background()).Execute()
 
@@ -168,7 +168,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetExchanges", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetExchanges(context.Background()).Execute()
 
@@ -180,7 +180,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetForexPairs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetForexPairs(context.Background()).Execute()
 
@@ -192,7 +192,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetFunds", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetFunds(context.Background()).Execute()
 
@@ -204,7 +204,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetInstrumentType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetInstrumentType(context.Background()).Execute()
 
@@ -216,7 +216,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetIntervals", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetIntervals(context.Background()).Execute()
 
@@ -228,7 +228,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetMarketState", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetMarketState(context.Background()).Execute()
 
@@ -240,7 +240,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetMutualFundsFamily", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetMutualFundsFamily(context.Background()).Execute()
 
@@ -252,7 +252,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetMutualFundsList", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetMutualFundsList(context.Background()).Execute()
 
@@ -264,7 +264,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetMutualFundsType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetMutualFundsType(context.Background()).Execute()
 
@@ -276,7 +276,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetStocks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetStocks(context.Background()).Execute()
 
@@ -288,7 +288,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetSymbolSearch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetSymbolSearch(context.Background()).Execute()
 
@@ -300,7 +300,7 @@ func Test_openapi_ReferenceDataAPIService(t *testing.T) {
 
 	t.Run("Test ReferenceDataAPIService GetTechnicalIndicators", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ReferenceDataAPI.GetTechnicalIndicators(context.Background()).Execute()
 

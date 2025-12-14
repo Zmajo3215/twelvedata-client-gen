@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_RegulatoryAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetDirectHolders", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegulatoryAPI.GetDirectHolders(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetFundHolders", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegulatoryAPI.GetFundHolders(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetInsiderTransactions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegulatoryAPI.GetInsiderTransactions(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetInstitutionalHolders", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegulatoryAPI.GetInstitutionalHolders(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetSourceSanctionedEntities", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var source string
 
@@ -86,7 +86,7 @@ func Test_openapi_RegulatoryAPIService(t *testing.T) {
 
 	t.Run("Test RegulatoryAPIService GetTaxInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegulatoryAPI.GetTaxInfo(context.Background()).Execute()
 

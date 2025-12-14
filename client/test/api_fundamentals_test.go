@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_FundamentalsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetBalanceSheet", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetBalanceSheet(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetBalanceSheetConsolidated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetBalanceSheetConsolidated(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetCashFlow", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetCashFlow(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetCashFlowConsolidated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetCashFlowConsolidated(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetDividends", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetDividends(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetDividendsCalendar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetDividendsCalendar(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetEarnings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetEarnings(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetEarningsCalendar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetEarningsCalendar(context.Background()).Execute()
 
@@ -120,7 +120,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetIncomeStatement", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetIncomeStatement(context.Background()).Execute()
 
@@ -132,7 +132,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetIncomeStatementConsolidated", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetIncomeStatementConsolidated(context.Background()).Execute()
 
@@ -144,7 +144,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetIpoCalendar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetIpoCalendar(context.Background()).Execute()
 
@@ -156,7 +156,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetKeyExecutives", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetKeyExecutives(context.Background()).Execute()
 
@@ -168,7 +168,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetLastChanges", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var endpoint string
 
@@ -182,7 +182,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetLogo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetLogo(context.Background()).Execute()
 
@@ -194,7 +194,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetMarketCap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetMarketCap(context.Background()).Execute()
 
@@ -206,7 +206,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetProfile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetProfile(context.Background()).Execute()
 
@@ -218,7 +218,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetSplits", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetSplits(context.Background()).Execute()
 
@@ -230,7 +230,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetSplitsCalendar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetSplitsCalendar(context.Background()).Execute()
 
@@ -242,7 +242,7 @@ func Test_openapi_FundamentalsAPIService(t *testing.T) {
 
 	t.Run("Test FundamentalsAPIService GetStatistics", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FundamentalsAPI.GetStatistics(context.Background()).Execute()
 

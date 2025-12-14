@@ -1,4 +1,4 @@
-module github.com/GIT_USER_ID/GIT_REPO_ID
+module github.com/Zmajo3215/twelvedata-client-gen
 
 go 1.23
 

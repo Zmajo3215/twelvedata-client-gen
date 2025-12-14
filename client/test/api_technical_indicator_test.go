@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAd(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAdOsc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAdOsc(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAdd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAdd(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAdx", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAdx(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAdxr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAdxr(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesApo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesApo(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAroon", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAroon(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAroonOsc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAroonOsc(context.Background()).Execute()
 
@@ -120,7 +120,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAtr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAtr(context.Background()).Execute()
 
@@ -132,7 +132,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAvg", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAvg(context.Background()).Execute()
 
@@ -144,7 +144,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesAvgPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesAvgPrice(context.Background()).Execute()
 
@@ -156,7 +156,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesBBands", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesBBands(context.Background()).Execute()
 
@@ -168,7 +168,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesBeta", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesBeta(context.Background()).Execute()
 
@@ -180,7 +180,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesBop", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesBop(context.Background()).Execute()
 
@@ -192,7 +192,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCci", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCci(context.Background()).Execute()
 
@@ -204,7 +204,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCeil", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCeil(context.Background()).Execute()
 
@@ -216,7 +216,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCmo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCmo(context.Background()).Execute()
 
@@ -228,7 +228,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCoppock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCoppock(context.Background()).Execute()
 
@@ -240,7 +240,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCorrel", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCorrel(context.Background()).Execute()
 
@@ -252,7 +252,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesCrsi", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesCrsi(context.Background()).Execute()
 
@@ -264,7 +264,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesDema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesDema(context.Background()).Execute()
 
@@ -276,7 +276,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesDiv", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesDiv(context.Background()).Execute()
 
@@ -288,7 +288,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesDpo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesDpo(context.Background()).Execute()
 
@@ -300,7 +300,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesDx", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesDx(context.Background()).Execute()
 
@@ -312,7 +312,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesEma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesEma(context.Background()).Execute()
 
@@ -324,7 +324,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesExp", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesExp(context.Background()).Execute()
 
@@ -336,7 +336,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesFloor", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesFloor(context.Background()).Execute()
 
@@ -348,7 +348,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHeikinashiCandles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHeikinashiCandles(context.Background()).Execute()
 
@@ -360,7 +360,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHlc3", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHlc3(context.Background()).Execute()
 
@@ -372,7 +372,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtDcPeriod", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtDcPeriod(context.Background()).Execute()
 
@@ -384,7 +384,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtDcPhase", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtDcPhase(context.Background()).Execute()
 
@@ -396,7 +396,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtPhasor", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtPhasor(context.Background()).Execute()
 
@@ -408,7 +408,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtSine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtSine(context.Background()).Execute()
 
@@ -420,7 +420,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtTrendMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtTrendMode(context.Background()).Execute()
 
@@ -432,7 +432,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesHtTrendline", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesHtTrendline(context.Background()).Execute()
 
@@ -444,7 +444,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesIchimoku", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesIchimoku(context.Background()).Execute()
 
@@ -456,7 +456,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesKama", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesKama(context.Background()).Execute()
 
@@ -468,7 +468,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesKeltner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesKeltner(context.Background()).Execute()
 
@@ -480,7 +480,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesKst", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesKst(context.Background()).Execute()
 
@@ -492,7 +492,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLinearReg", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLinearReg(context.Background()).Execute()
 
@@ -504,7 +504,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLinearRegAngle", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLinearRegAngle(context.Background()).Execute()
 
@@ -516,7 +516,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLinearRegIntercept", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLinearRegIntercept(context.Background()).Execute()
 
@@ -528,7 +528,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLinearRegSlope", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLinearRegSlope(context.Background()).Execute()
 
@@ -540,7 +540,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLn", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLn(context.Background()).Execute()
 
@@ -552,7 +552,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesLog10", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesLog10(context.Background()).Execute()
 
@@ -564,7 +564,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMa", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMa(context.Background()).Execute()
 
@@ -576,7 +576,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMacd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMacd(context.Background()).Execute()
 
@@ -588,7 +588,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMacdExt", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMacdExt(context.Background()).Execute()
 
@@ -600,7 +600,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMacdSlope", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMacdSlope(context.Background()).Execute()
 
@@ -612,7 +612,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMama", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMama(context.Background()).Execute()
 
@@ -624,7 +624,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMax", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMax(context.Background()).Execute()
 
@@ -636,7 +636,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMaxIndex", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMaxIndex(context.Background()).Execute()
 
@@ -648,7 +648,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMcGinleyDynamic", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMcGinleyDynamic(context.Background()).Execute()
 
@@ -660,7 +660,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMedPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMedPrice(context.Background()).Execute()
 
@@ -672,7 +672,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMfi", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMfi(context.Background()).Execute()
 
@@ -684,7 +684,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMidPoint", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMidPoint(context.Background()).Execute()
 
@@ -696,7 +696,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMidPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMidPrice(context.Background()).Execute()
 
@@ -708,7 +708,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMin", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMin(context.Background()).Execute()
 
@@ -720,7 +720,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMinIndex", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMinIndex(context.Background()).Execute()
 
@@ -732,7 +732,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMinMax", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMinMax(context.Background()).Execute()
 
@@ -744,7 +744,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMinMaxIndex", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMinMaxIndex(context.Background()).Execute()
 
@@ -756,7 +756,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMinusDI", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMinusDI(context.Background()).Execute()
 
@@ -768,7 +768,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMinusDM", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMinusDM(context.Background()).Execute()
 
@@ -780,7 +780,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMom", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMom(context.Background()).Execute()
 
@@ -792,7 +792,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesMult", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesMult(context.Background()).Execute()
 
@@ -804,7 +804,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesNatr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesNatr(context.Background()).Execute()
 
@@ -816,7 +816,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesObv", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesObv(context.Background()).Execute()
 
@@ -828,7 +828,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesPercentB", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesPercentB(context.Background()).Execute()
 
@@ -840,7 +840,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesPivotPointsHL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesPivotPointsHL(context.Background()).Execute()
 
@@ -852,7 +852,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesPlusDI", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesPlusDI(context.Background()).Execute()
 
@@ -864,7 +864,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesPlusDM", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesPlusDM(context.Background()).Execute()
 
@@ -876,7 +876,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesPpo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesPpo(context.Background()).Execute()
 
@@ -888,7 +888,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRoc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRoc(context.Background()).Execute()
 
@@ -900,7 +900,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRocp", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRocp(context.Background()).Execute()
 
@@ -912,7 +912,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRocr", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRocr(context.Background()).Execute()
 
@@ -924,7 +924,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRocr100", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRocr100(context.Background()).Execute()
 
@@ -936,7 +936,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRsi", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRsi(context.Background()).Execute()
 
@@ -948,7 +948,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesRvol", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesRvol(context.Background()).Execute()
 
@@ -960,7 +960,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSar(context.Background()).Execute()
 
@@ -972,7 +972,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSarExt", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSarExt(context.Background()).Execute()
 
@@ -984,7 +984,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSma(context.Background()).Execute()
 
@@ -996,7 +996,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSqrt", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSqrt(context.Background()).Execute()
 
@@ -1008,7 +1008,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesStdDev", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesStdDev(context.Background()).Execute()
 
@@ -1020,7 +1020,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesStoch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesStoch(context.Background()).Execute()
 
@@ -1032,7 +1032,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesStochF", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesStochF(context.Background()).Execute()
 
@@ -1044,7 +1044,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesStochRsi", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesStochRsi(context.Background()).Execute()
 
@@ -1056,7 +1056,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSub", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSub(context.Background()).Execute()
 
@@ -1068,7 +1068,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSum", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSum(context.Background()).Execute()
 
@@ -1080,7 +1080,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSuperTrend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSuperTrend(context.Background()).Execute()
 
@@ -1092,7 +1092,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesSuperTrendHeikinAshiCandles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesSuperTrendHeikinAshiCandles(context.Background()).Execute()
 
@@ -1104,7 +1104,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesT3ma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesT3ma(context.Background()).Execute()
 
@@ -1116,7 +1116,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesTRange", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesTRange(context.Background()).Execute()
 
@@ -1128,7 +1128,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesTema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesTema(context.Background()).Execute()
 
@@ -1140,7 +1140,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesTrima", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesTrima(context.Background()).Execute()
 
@@ -1152,7 +1152,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesTsf", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesTsf(context.Background()).Execute()
 
@@ -1164,7 +1164,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesTypPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesTypPrice(context.Background()).Execute()
 
@@ -1176,7 +1176,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesUltOsc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesUltOsc(context.Background()).Execute()
 
@@ -1188,7 +1188,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesVar", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesVar(context.Background()).Execute()
 
@@ -1200,7 +1200,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesVwap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesVwap(context.Background()).Execute()
 
@@ -1212,7 +1212,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesWclPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesWclPrice(context.Background()).Execute()
 
@@ -1224,7 +1224,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesWillR", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesWillR(context.Background()).Execute()
 
@@ -1236,7 +1236,7 @@ func Test_openapi_TechnicalIndicatorAPIService(t *testing.T) {
 
 	t.Run("Test TechnicalIndicatorAPIService GetTimeSeriesWma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TechnicalIndicatorAPI.GetTimeSeriesWma(context.Background()).Execute()
 

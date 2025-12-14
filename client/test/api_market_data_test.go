@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_MarketDataAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetCurrencyConversion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MarketDataAPI.GetCurrencyConversion(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetEod", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MarketDataAPI.GetEod(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetExchangeRate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MarketDataAPI.GetExchangeRate(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetMarketMovers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var market string
 
@@ -74,7 +74,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetPrice", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MarketDataAPI.GetPrice(context.Background()).Execute()
 
@@ -86,7 +86,7 @@ func Test_openapi_MarketDataAPIService(t *testing.T) {
 
 	t.Run("Test MarketDataAPIService GetQuote", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MarketDataAPI.GetQuote(context.Background()).Execute()
 

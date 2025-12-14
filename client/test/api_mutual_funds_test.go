@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/Zmajo3215/twelvedata-client-gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_MutualFundsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorld", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorld(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldComposition", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldComposition(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldPerformance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldPerformance(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldPurchaseInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldPurchaseInfo(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldRatings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldRatings(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldRisk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldRisk(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldSummary", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldSummary(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_MutualFundsAPIService(t *testing.T) {
 
 	t.Run("Test MutualFundsAPIService GetMutualFundsWorldSustainability", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MutualFundsAPI.GetMutualFundsWorldSustainability(context.Background()).Execute()
 
